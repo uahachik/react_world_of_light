@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/world_of_light/static/css/main.3614e842.chunk.css",
-    "main.js": "/world_of_light/static/js/main.fba5c320.chunk.js",
-    "main.js.map": "/world_of_light/static/js/main.fba5c320.chunk.js.map",
-    "runtime~main.js": "/world_of_light/static/js/runtime~main.1d3e71af.js",
-    "runtime~main.js.map": "/world_of_light/static/js/runtime~main.1d3e71af.js.map",
-    "static/js/2.816a8f67.chunk.js": "/world_of_light/static/js/2.816a8f67.chunk.js",
-    "static/js/2.816a8f67.chunk.js.map": "/world_of_light/static/js/2.816a8f67.chunk.js.map",
-    "index.html": "/world_of_light/index.html",
-    "precache-manifest.8708e6e7927ad1f903df018204afb5ce.js": "/world_of_light/precache-manifest.8708e6e7927ad1f903df018204afb5ce.js",
-    "service-worker.js": "/world_of_light/service-worker.js",
-    "static/css/main.3614e842.chunk.css.map": "/world_of_light/static/css/main.3614e842.chunk.css.map",
-    "static/media/buildings.svg": "/world_of_light/static/media/buildings.5e68755d.svg",
-    "static/media/house.png": "/world_of_light/static/media/house.b2d3c123.png",
-    "static/media/saving.png": "/world_of_light/static/media/saving.4d40eac7.png"
+    "main.css": "/react_world_of_light/static/css/main.3614e842.chunk.css",
+    "main.js": "/react_world_of_light/static/js/main.de16b071.chunk.js",
+    "main.js.map": "/react_world_of_light/static/js/main.de16b071.chunk.js.map",
+    "runtime~main.js": "/react_world_of_light/static/js/runtime~main.a6a1d7da.js",
+    "runtime~main.js.map": "/react_world_of_light/static/js/runtime~main.a6a1d7da.js.map",
+    "static/js/2.816a8f67.chunk.js": "/react_world_of_light/static/js/2.816a8f67.chunk.js",
+    "static/js/2.816a8f67.chunk.js.map": "/react_world_of_light/static/js/2.816a8f67.chunk.js.map",
+    "index.html": "/react_world_of_light/index.html",
+    "precache-manifest.f9ad55c9950cf101fd288959e6f4befb.js": "/react_world_of_light/precache-manifest.f9ad55c9950cf101fd288959e6f4befb.js",
+    "service-worker.js": "/react_world_of_light/service-worker.js",
+    "static/css/main.3614e842.chunk.css.map": "/react_world_of_light/static/css/main.3614e842.chunk.css.map",
+    "static/media/buildings.svg": "/react_world_of_light/static/media/buildings.5e68755d.svg",
+    "static/media/house.png": "/react_world_of_light/static/media/house.b2d3c123.png",
+    "static/media/saving.png": "/react_world_of_light/static/media/saving.4d40eac7.png"
   }
 }
