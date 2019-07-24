@@ -2,7 +2,9 @@
   "name": "world_of_light",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://uahachik.github.io/react_world_of_light",
   "dependencies": {
+    "gh-pages": "^2.0.1",
     "react": "^16.8.6",
     "react-animated-css": "^1.2.1",
     "react-dnd": "^7.4.5",
@@ -12,6 +14,7 @@
     "redux": "^4.0.4"
   },
   "scripts": {
+    "deploy": "npm run build&&gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
