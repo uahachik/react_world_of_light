@@ -1,33 +1,80 @@
-.App {
-  text-align: center;
+.World {
+    /*width: 100%;*/
+    /*height: 100%;*/
+    text-align: center;
+    background-color: #62f860;
+    min-height: 100vh;
+    display: flex;
+    border: red solid 2px;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+.World-Container {
+    display: flex;
+    margin: 0.3rem auto 0 auto;
+    /*border: blue solid 2px;*/
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.World-Component {
+    display: grid;
+    justify-content: center;
+    width: 364px;
+    /*border: yellow solid 2px;*/
 }
 
-.App-link {
-  color: #61dafb;
+.World-Component .Rules {
+    visibility: hidden;
+    width: 300px;
+    background-color: #68e607;
+    color: #ff240e;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    font-family: consolas,monospace;
+    font-size: 13px;
+    position: absolute;
+    top: 35px;
+    z-index: 1;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.HouseholdRules {
+    left: 40px;
 }
+
+.PowerPlantsRules {
+    right: 40px;
+}
+
+.World-Component:hover .HouseholdRules,
+.World-Component:hover .PowerPlantsRules {
+    visibility: visible;
+}
+
+/*@media (max-width: 768px) {
+    .World {
+        width: 100%;
+        height: 100%;
+        align-content: center;
+        justify-content: space-around;
+    }
+
+    .World-Container {
+        display: block;
+        justify-content: space-around;
+        margin: 0.3rem auto 4rem auto;
+        background-color: #62f860;
+        border: blue solid 0;
+    }
+
+    .World-Component {
+        display: flow;
+        width: auto;
+        margin-top: 4px;
+        border: yellow solid 0;
+    }
+
+    .Component {
+        margin: 1px 0;
+        width: auto;
+        border: pink solid 0;
+    }
+}*/
